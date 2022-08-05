@@ -1,0 +1,239 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f5f5f5;
+}
+header {
+  padding: 20px 6%;
+  background-color: blue;
+  height: 300px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+.nav-item {
+  margin: 2px 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: baseline;
+  cursor: pointer;
+}
+.active-1 {
+  background-color: #ffffff;
+  color: blue;
+  border-radius: 4px;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+  .logo {
+  position: relative;
+  bottom: 28px;
+}
+.header-text {
+  position: relative;
+  bottom: 35px;
+}
+.header-text  h2 {
+  color: #ffffff;
+}
+.header-text  P {
+  color: #ffffff;
+}
+ .header-image {
+  float: right;
+  margin-top: -200px;
+  margin-right: -90px;
+  height: 500px;
+}
+.company-items {
+  padding: 0px 6%;
+  color: #000;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.api-heading {
+  padding: 50px 6%;;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 50px;
+}
+.cards {
+  padding: 50px 6%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.card {
+  padding: 15px;
+  cursor: pointer;
+}
+.active {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 10px;
+  width: 290px;
+}
+.card:hover {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 10px;
+  width: 290px;
+  padding: 15px;
+  cursor: pointer;
+  color: #5a31fc;
+  font-size: 20px;
+}
+.card-logo {
+  height: 40px;
+}
+.blog-heading{
+  padding: 10px 6%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  
+
+}
+.blog-cards {
+  padding: 50px 6%;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-card {
+  display: flex;
+  width: 620px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 8px #000;
+  border-radius: 40px 2px 2px 2px;
+  cursor: pointer;
+}
+.blog-bottom {
+  position: relative;
+  right: 20px;
+}
+.blog-author {
+  position: relative;
+  right: 100px;
+}
+.blog-content {
+  position: relative;
+  left: 220px;
+}
+.blog-image  img {
+  height: 240px;
+}
+
+.faq-section {
+  padding: 50px 6%;
+  background-color: #e9edff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-image img {
+  height: 320px;
+}
+.faq-content h2 {
+  font-family: "arial";
+  font-size: 40px;
+  font-weight: 900;
+}
+.faq-content h4 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.faq-content h4:nth-of-type(2){
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+.faq-content button {
+  margin-top: 20px;
+  background-color: #5a31fc;
+  padding: 4px 10px;
+  color: #ffffff;
+  border-radius: 3px;
+  border-style: none;
+  cursor: pointer;
+}
+.download-section {
+  padding: 80px 6%;
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+}
+.download-content h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+}
+.download-email  form  input {
+  padding: 8px;
+  width: 405px;
+  border-radius: 25px;
+  background-color: #e9edff;
+}
+.download-email  form  button {
+  position: relative;
+  right: 130px;
+  padding: 5px 25px;
+  border-radius: 25px;
+  background-color: #5a31fc;
+  border-style: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer-section {
+  padding: 50px 6%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c0afe;
+  color: #ffffff;
+  align-items: center;
+}
+.footer-logo {
+  height: 45px;
+}
+.list {
+  display: flex;
+  list-style: none;
+  margin-left: -63px;
+}
+.list-items {
+  margin: 0 25px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.footer-logos {
+  height: 45px;
+  position: relative;
+  margin-right: 40px;
+  right:  -72px;
+  cursor: pointer;
+
+}
+.logos-list {
+  display: flex;
+  list-style: none;
+}
+.logos-list  li {
+  margin-top: 10px;
+  font-size: 12px;
+  border-right: 2px solid #ffffff;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.logos-list li:nth-last-child(1)
+{
+  border: none;
+}
