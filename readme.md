@@ -9,7 +9,7 @@ Deployed link of website &nbsp; ![Project-09](https://img.shields.io/badge/Proje
 
 <br>
 
-# [Link to Project 09](devloper-landingpage.netlify.app)
+# [Link to Project 09](https://devloper-landingpage.netlify.app)
 
 <br>
 
