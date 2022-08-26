@@ -5,19 +5,25 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
 body {
   background-color: #f5f5f5;
 }
+
 header {
   padding: 20px 6%;
   background-color: blue;
   height: 300px;
 }
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
 nav {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
 }
+
 .nav-item {
   margin: 2px 20px;
   color: #ffffff;
@@ -25,6 +31,7 @@ nav {
   justify-content: baseline;
   cursor: pointer;
 }
+
 .active-1 {
   background-color: #ffffff;
   color: blue;
@@ -32,26 +39,42 @@ nav {
   padding: 2px 20px;
   cursor: pointer;
 }
-  .logo {
+
+.active-5 {
+  background-color: #ffffff;
+  color: blue;
+  border-radius: 4px;
+  width: 70px;
+  padding: 2px 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.logo {
   position: relative;
   bottom: 28px;
 }
+
 .header-text {
   position: relative;
   bottom: 35px;
 }
-.header-text  h2 {
+
+.header-text h2 {
   color: #ffffff;
 }
-.header-text  P {
+
+.header-text P {
   color: #ffffff;
 }
- .header-image {
+/* Men with PC img  */
+.header-image {
   float: right;
   margin-top: -200px;
   margin-right: -90px;
   height: 500px;
 }
+
 .company-items {
   padding: 0px 6%;
   color: #000;
@@ -61,27 +84,33 @@ nav {
 }
 
 .api-heading {
-  padding: 50px 6%;;
+  padding: 50px 6%;
   margin-bottom: 5px;
   font-weight: 700;
   font-size: 50px;
 }
+/* ------------------------------ */
+/* ---------- Cards ------------ */
+/* ------------------------------ */
 .cards {
   padding: 50px 6%;
   display: flex;
   justify-content: space-between;
   font-size: 13px;
 }
+
 .card {
   padding: 15px;
   cursor: pointer;
 }
+
 .active {
   background-color: #ffffff;
   box-shadow: 2px 2px 5px #000;
   border-radius: 10px;
   width: 290px;
 }
+
 .card:hover {
   background-color: #ffffff;
   box-shadow: 2px 2px 5px #000;
@@ -92,21 +121,25 @@ nav {
   color: #5a31fc;
   font-size: 20px;
 }
+
 .card-logo {
   height: 40px;
 }
-.blog-heading{
+/* ------------------------------ */
+/* ----------blog section ------------ */
+/* ------------------------------ */
+.blog-heading {
   padding: 10px 6%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
-  
-
 }
+
 .blog-cards {
   padding: 50px 6%;
   display: flex;
   justify-content: space-between;
 }
+
 .blog-card {
   display: flex;
   width: 620px;
@@ -115,19 +148,23 @@ nav {
   border-radius: 40px 2px 2px 2px;
   cursor: pointer;
 }
+
 .blog-bottom {
   position: relative;
   right: 20px;
 }
+
 .blog-author {
   position: relative;
   right: 100px;
 }
+
 .blog-content {
   position: relative;
   left: 220px;
 }
-.blog-image  img {
+
+.blog-image img {
   height: 240px;
 }
 
@@ -138,23 +175,28 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 .faq-image img {
   height: 320px;
 }
+
 .faq-content h2 {
   font-family: "arial";
   font-size: 40px;
   font-weight: 900;
 }
+
 .faq-content h4 {
   margin-top: 10px;
   font-size: 12px;
 }
-.faq-content h4:nth-of-type(2){
+
+.faq-content h4:nth-of-type(2) {
   font-size: 18px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 900;
 }
+
 .faq-content button {
   margin-top: 20px;
   background-color: #5a31fc;
@@ -164,24 +206,28 @@ nav {
   border-style: none;
   cursor: pointer;
 }
+
 .download-section {
   padding: 80px 6%;
   display: flex;
- align-items: center;
+  align-items: center;
   justify-content: space-between;
 }
-.download-content h1{
+
+.download-content h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   cursor: pointer;
 }
-.download-email  form  input {
+
+.download-email form input {
   padding: 8px;
   width: 405px;
   border-radius: 25px;
   background-color: #e9edff;
 }
-.download-email  form  button {
+
+.download-email form button {
   position: relative;
   right: 130px;
   padding: 5px 25px;
@@ -200,14 +246,17 @@ nav {
   color: #ffffff;
   align-items: center;
 }
+
 .footer-logo {
   height: 45px;
 }
+
 .list {
   display: flex;
   list-style: none;
   margin-left: -63px;
 }
+
 .list-items {
   margin: 0 25px;
   font-size: 12px;
@@ -218,22 +267,104 @@ nav {
   height: 45px;
   position: relative;
   margin-right: 40px;
-  right:  -72px;
+  right: -72px;
   cursor: pointer;
-
 }
+
 .logos-list {
   display: flex;
   list-style: none;
 }
-.logos-list  li {
+
+.logos-list li {
   margin-top: 10px;
   font-size: 12px;
   border-right: 2px solid #ffffff;
   padding-right: 15px;
   cursor: pointer;
 }
-.logos-list li:nth-last-child(1)
-{
+
+.logos-list li:nth-last-child(1) {
   border: none;
+}
+
+/* MEDIA QUERIES  */
+@media screen and (max-width: 600px) {
+  nav {
+    visibility: hidden;
+  }
+
+  header {
+    height: auto;
+    width: 500px;
+  }
+
+  .header-image {
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 100px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .header-text {
+    position: relative;
+    margin-top: 3rem;
+  }
+
+  .blog-card {
+    flex-direction: column;
+    width: 400px;
+    margin-top: 60px;
+  }
+
+  .company-items {
+    font-size: 12px;
+  }
+
+  .blog-cards {
+    flex-direction: column;
+  }
+
+  .blog-content {
+    left: 60px;
+  }
+
+  .blog-bottom {
+    top: -14rem;
+    right: -1px;
+  }
+
+  .blog-image img {
+    width: 400px;
+  }
+
+  .faq-section {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .faq-image img {
+    margin-top: 50px;
+    width: 500px;
+    height: 300px;
+  }
+
+  .download-section {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .footer-section {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .active-5 {
+    display: block;
+    margin-left: 20rem;
+    margin-top: -4rem;
+  }
 }
